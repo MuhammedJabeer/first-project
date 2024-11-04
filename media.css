@@ -1,0 +1,110 @@
+/* @media  screen and (max-width:1126px){
+    .bannerimg img{
+        display: none;
+      }
+} */
+@media  screen and (max-width:950px) {
+      .nav_bar_links{
+        display: none;
+      }
+      .transparent_btn{
+        display: none;
+      }
+      .banner .container1 {
+        display: block;
+      }
+      .bannerimg img{
+        width: 50%;
+        margin: 160px;
+      }
+      .intro_grids{
+        grid-template-columns: 2fr;
+      }
+      .promo{
+        display: block;
+      }
+      .more_informations{
+        grid-template-columns: 1fr;
+      }
+      
+}
+@media  screen and (max-width:880px)
+{
+   .Activity{
+        display: block;
+    }
+    .images{
+        width: 40%;
+    }
+    .user_card{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .email_sub{
+        min-width: 400px;
+    }
+    .company_info{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media  screen and (max-width:645px)
+{   
+    .bannerimg img{
+        display: none;
+      } 
+    .images{
+        display: none;
+    }
+    .Testimonial{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .user_card{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .company_info{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .email_sub{
+        min-width: 200px;
+    }
+    .cart_1{
+        display: block;
+    }
+    .bannertext h1{
+        font-size: 30px;
+    }
+    .border_btn {
+        padding: 10px 10px 10px 5px;   
+        /* white-space:nowrap;  */
+    }
+    /* .filledbtn{
+        white-space: nowrap;
+        padding: 10px 10px 10px 5px; 
+    } */
+     .end{
+        display: block;
+       
+    } 
+    h2 {
+        font-size: 20px;
+    }
+    .main_content h2 {
+        font-size: 20px;
+    }
+    .login_tittle h2 {
+        font-size: 20px;
+    }
+    .s_media{
+        margin-left: 100px;
+    }
+} 
+@media  screen and (max-width:330) {
+    .border_btn {
+        padding: 10px 10px 10px 5px;   
+         white-space:nowrap;  
+    }
+     .filledbtn{
+        white-space: nowrap;
+        padding: 10px 10px 10px 5px; 
+    } 
+    
+}
