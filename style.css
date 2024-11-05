@@ -180,7 +180,7 @@ h5 {
 
 .nav_bar_links ul li a:hover{
      padding: 10px;
-     background: #fff;
+     background:#FFF5F0 ;
      color: #000;
      border: none;
      outline: none;
@@ -215,20 +215,6 @@ display: none;
     align-items: center;
     justify-content: space-between;
 }
-
-
-
-/* .nav_product label{
-    display: flex;
-    align-items: center;
-}
- */
-
-
-
-
-
-
 
 .login_li {
     display: none;
