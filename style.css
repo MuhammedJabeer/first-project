@@ -75,8 +75,8 @@ header {
     margin: auto;
     display: flex;
     justify-content: center;
-    /* position: sticky;
-    z-index: 1; */
+    position: sticky;
+    z-index: 1;
     top: 0;
     padding: 10px 0px;
 }
@@ -188,7 +188,24 @@ h5 {
      font-weight: 500;
 
 }
-
+.demo_btn{
+cursor: pointer;
+background-color: transparent;
+border: none;
+color: #1BA0AB;
+font-size: 14px;
+font-weight: 700;
+text-align: left;
+display: flex;
+align-items: center;
+display: none;
+}
+#menu-toggle{
+    display: none;
+  }
+  .menu-icon{
+    display: none;
+  }
 .nav_bar_links ul li a{
     
     transition: all 200ms;
@@ -199,62 +216,16 @@ h5 {
     justify-content: space-between;
 }
 
-#click{
-    display: none;
-}
 
-.nav_product label{
+
+/* .nav_product label{
     display: flex;
     align-items: center;
 }
+ */
 
 
 
-
-
-.hambug {
-    top: 0%;
-    left: 25px;
-}
-
-.close {
-    top: 0%;
-    left: 25px;
-}
-
-.hambug,
-.close {
-    font-size: 16px;
-    color: black;
-    top: 25px;
-    left: 20px;
-    display: none;
-}
-
-#check {
-
-    position: absolute;
-    left: 25px;
-    display: none;
-}
-
-/* .dropdown ul{
-visibility: hidden;    
-position: absolute;
-display:block;
-} */
-
-.ham{
-    visibility: hidden;
-}
-
-
-/* .nav_product:hover .dropdown ul {
-visibility: visible;   
- background-color:#1BA0AB;
-    color:#E6E6E6;
-    
-} */
 
 
 
