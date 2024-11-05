@@ -208,7 +208,7 @@ display: none;
   }
 .nav_bar_links ul li a{
     
-    transition: all 200ms;
+    /* transition: all 200ms; */
 }
 .tittle_bar {
     display: flex;
@@ -867,6 +867,9 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Designer{
+    border-radius: 200px;
 }
 
 .icon_str {
